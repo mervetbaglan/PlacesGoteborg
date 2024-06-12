@@ -1,0 +1,139 @@
+body,
+html {
+  height: 100%;
+  margin: 10px 10px 0 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+@media (max-width: 900px) {
+  .title {
+    flex-flow: column nowrap;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #eat {
+    color: black;
+  }
+
+  .place {
+    display: inline;
+  }
+
+  .city {
+    display: block;
+  }
+}
+
+
+
+@media (min-width: 901px) {
+  .title {
+    flex-flow: column nowrap;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #eat {
+    color: red;
+  }
+
+  h1 {
+    display: inline;
+  }
+
+  .city {
+    display: block;
+  }
+}
+
+a {
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.flex-container img {
+  max-width: 50%;
+  height: 190px;
+}
+
+.flex-container p {
+  width: 100%;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.grid-item {
+  background-color: antiquewhite;
+  width: 100%;
+  padding: 10px;
+}
+
+
+.ice {
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  margin-left: 10%;
+  text-align: justify;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+  text-align: center;
+}
+
+
+.grid-container img {
+  max-width: 90%;
+  height: 190px;
+  min-width: 180px;
+}
+
+
+.coffee p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+#rest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.rest-image {
+  display: flex;
+  min-width: 40%;
+  max-width: 90%;
+}
